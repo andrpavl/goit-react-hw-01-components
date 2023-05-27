@@ -1,29 +1,30 @@
 th {
-    text-align: left;
-    color: #fff;
-    background-color: #706d97;
+  text-align: left;
+  color: #fff;
+  background-color: #706d97;
 }
 td {
-    min-width: 250px;
-    color: #696969;
-    border-bottom: 1px solid #eee;
+  min-width: 250px;
+  color: #696969;
+  border-bottom: 1px solid #eee;
 }
-th, td {
-    padding: 10px;
-    height: 20px;
+th,
+td {
+  padding: 10px;
+  height: 20px;
 }
 td:first-child {
-    width: 150px;
-    min-width: 0;
+  width: 150px;
+  min-width: 0;
 }
 th:last-child {
-    text-align: right;
+  text-align: right;
 }
 td:last-child {
-    width: 80px;
-    min-width: 0;
-    text-align: right;
+  width: 80px;
+  min-width: 0;
+  text-align: right;
 }
 tr:nth-child(odd) {
-    background-color: #eee;
+  background-color: #eee;
 }
